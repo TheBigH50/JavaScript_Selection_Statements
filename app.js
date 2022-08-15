@@ -13,26 +13,26 @@ if (answer < favoriteNumber) {
   console.log("Congratulations!");
 }
 
-let birthMonth = prompt("What is your birth month?");
+let birthMonth = parseInt(prompt("What is your birth month?"));
 switch (birthMonth) {
-  case "12":
-  case "1":
-  case "2":
+  case 12:
+  case 1:
+  case 2:
     console.log("Winter");
     break;
-  case "3":
-  case "4":
-  case "5":
+  case 3:
+  case 4:
+  case 5:
     console.log("Spring");
     break;
-  case "6":
-  case "7":
-  case "8":
+  case 6:
+  case 7:
+  case 8:
     console.log("Summer");
     break;
-  case "9":
-  case "10":
-  case "11":
+  case 9:
+  case 10:
+  case 11:
     console.log("Fall");
     break;
   default:
