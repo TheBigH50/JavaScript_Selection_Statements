@@ -12,7 +12,7 @@ if (answer < favoriteNumber) {
   console.log("Too Low");
 } else if (answer > favoriteNumber) {
   console.log("Too High");
-} else if ((answer = favoriteNumber)) {
+} else if ((answer == favoriteNumber)) {
   console.log("Congratulations!");
 }
 
