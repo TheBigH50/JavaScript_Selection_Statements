@@ -5,8 +5,15 @@ VISIBLE "Guess my favorite number!"
 GIMMEH answer
 answer < favoriteNumber
 O RLY?
-
-
+    YA RLY
+        VISIBLE "Too Low"
+    MEBBE answer > favoriteNumber
+        VISIBLE "Too High"
+    MEBBE answer == favoriteNumber
+        VISIBLE "Congratulations!"
+    NO WAI
+        VISIBLE "Thats Not A Number Silly"
+OIC
 
 
 VISIBLE "What is your birth month"
